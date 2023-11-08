@@ -7,6 +7,35 @@ name = "pypi"
 jupyter = "*"
 openai = "0.27.1"
 python-dotenv = "*"
+boto3 = ">=1.28.57"
+awscli = ">=1.29.57"
+botocore = ">=1.31.57"
+langchain = "0.0.309"
+
+# text
+transformers = ">=4.24,<5"
+sqlalchemy = "*"
+faiss-cpu = ">=1.7,<2"
+pypdf = ">=3.8,<4"
+pinecone-client = "*"
+apache-beam = "*"
+datasets = "*"
+tiktoken = "*"
+ipywidgets = ">=7,<8"
+matplotlib = "*"
+
+#agents
+duckduckgo-search = "*"
+yfinance = "*"
+pandas_datareader = "*"
+langchain_experimental = "*"
+#pysqlite3 = "0.4.8"
+google-search-results = "*"
+
+#misc
+beautifulsoup4 = "*"
+pillow = ">=9.5,<10"
+nemoguardrails = "0.5.0"
 
 [dev-packages]
 
